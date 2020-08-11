@@ -7,12 +7,3 @@ This repository contains an example project that integrates [Cucumber](https://c
 ```shell
 $ git clone git@git.cronn.de:cronnunity/cucumber/cucumber-junit5-base your-own-tests
 ```
-
-
-tgr-elasticsearch-single-node-nodeport
-32293/tcp
-10.43.125.158
-
-
-tgr-elasticsearch-single-node
-10.43.214.12
