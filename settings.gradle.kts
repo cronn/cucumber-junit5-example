@@ -1,1 +1,1 @@
-rootProject.name = "cucumber-junit5-base"
+rootProject.name = "cucumber-junit5-example"
