@@ -5,7 +5,7 @@ This repository contains an example project that integrates [Cucumber](https://c
 ## Quick Start
 
 ```shell
-$ git clone git@git.cronn.de:cronnunity/cucumber/cucumber-junit5-base your-own-tests
+$ git clone https://github.com/cronn-de/cucumber-junit5-example your-own-tests
 $ cd your-own-tests
 $ ./gradlew test
 ```
