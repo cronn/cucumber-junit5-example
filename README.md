@@ -6,4 +6,8 @@ This repository contains an example project that integrates [Cucumber](https://c
 
 ```shell
 $ git clone git@git.cronn.de:cronnunity/cucumber/cucumber-junit5-base your-own-tests
+$ cd your-own-tests
+$ ./gradlew test
 ```
+
+[<img src="https://www.cronn.de/img/logo_name_rgb_1200x630.png" alt="cronn GmbH" width="200"/>](https://www.cronn.de/)
