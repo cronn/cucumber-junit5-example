@@ -1,0 +1,4 @@
+shell
+--volume $HOME/.gradle:/home/gradle/.gradle:Z
+gradle:6.6.1-jdk11
+/bin/bash
