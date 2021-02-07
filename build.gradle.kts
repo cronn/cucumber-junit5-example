@@ -4,7 +4,7 @@ plugins {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(15))
         vendor.set(JvmVendorSpec.ADOPTOPENJDK)
     }
     consistentResolution {
@@ -40,6 +40,7 @@ tasks {
         systemProperties(System.getProperties().toMap() as Map<String, Object>)
         systemProperty("cucumber.execution.parallel.enabled", System.getProperty("test.parallel", "false"))
         systemProperty("cucumber.plugin", "json:build/reports/cucumber.json")
+        systemProperty("cucumber.publish.quiet", "true")
         useJUnitPlatform {
             excludeTags("disabled")
         }
