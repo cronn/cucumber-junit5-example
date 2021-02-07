@@ -47,3 +47,7 @@ configurations {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
 }
+
+tasks.named<Wrapper>("wrapper") {
+    distributionType = Wrapper.DistributionType.ALL
+}
