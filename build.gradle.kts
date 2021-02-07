@@ -37,7 +37,7 @@ dependencyLocking {
 tasks {
     test {
         ignoreFailures = true
-        systemProperties(System.getProperties().toMap() as Map<String, Object>)
+        systemProperties(project.gradle.startParameter.systemPropertiesArgs)
         systemProperty("cucumber.execution.parallel.enabled", System.getProperty("test.parallel", "false"))
         systemProperty("cucumber.plugin", "json:build/reports/cucumber.json")
         systemProperty("cucumber.publish.quiet", "true")

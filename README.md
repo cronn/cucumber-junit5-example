@@ -10,4 +10,16 @@ $ cd your-own-tests
 $ ./gradlew test
 ```
 
+Gradle will execute all feature files which are located in the same package as `BuildToolSupport` or any subpackage of that. In order to filter execution to just a subset of all features, use the `cucumber.filter.tags` option like this:
+
+```shell script
+$ ./gradlew test -Dcucumber.filter.tags="@first or @awesome"
+```
+
+In order to ignore just a subset of features, use the `cucumber.filter.tags` option like this:
+
+```shell script
+$ ./gradlew test -Dcucumber.filter.tags="not @second"
+```
+
 [<img src="https://www.cronn.de/img/logo_name_rgb_1200x630.png" alt="cronn GmbH" width="200"/>](https://www.cronn.de/)
