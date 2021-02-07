@@ -30,6 +30,10 @@ dependencies {
   }
 }
 
+dependencyLocking {
+    lockAllConfigurations()
+}
+
 tasks {
     test {
         ignoreFailures = true
