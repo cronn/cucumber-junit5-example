@@ -34,8 +34,12 @@ tasks {
         systemProperties(project.gradle.startParameter.systemPropertiesArgs)
         // OPTIONAL: enable parallel test execution
         systemProperty("cucumber.execution.parallel.enabled", true)
-        // OPTIONAL: write a JSON report, use this to generate a HTML report in your build pipeline
-        systemProperty("cucumber.plugin", "json:build/reports/cucumber.json")
+        // OPTIONAL: set parallel execution strategy (defaults to dynamic)
+        systemProperty("cucumber.execution.parallel.config.strategy", "fixed")
+        // OPTIONAL: set the fixed number of parallel test executions. Only works for the "fixed" strategy defined above
+        systemProperty("cucumber.execution.parallel.config.fixed.parallelism", 4)
+        // OPTIONAL: Enable Cucumber plugins, enable/disable as desired
+        systemProperty("cucumber.plugin", "json:build/reports/cucumber.json, timeline:build/reports/timeline")
         // OPTIONAL: don't show cucumber ads
         systemProperty("cucumber.publish.quiet", "true")
     }
