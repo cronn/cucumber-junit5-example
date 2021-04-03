@@ -14,10 +14,7 @@ java {
 
 dependencies {
   testImplementation("org.junit.jupiter:junit-jupiter-api:latest.release") {
-	  because("we want to use JUnit 5")
-  }
-  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:latest.release") {
-	  because("Cucumber relies on jupiter-engine to resolve tests")
+	  because("we want to use JUnit 5 assertions")
   }
   testImplementation("io.cucumber:cucumber-java:latest.release") {
 	  because("we want to use Cucumber JVM")
