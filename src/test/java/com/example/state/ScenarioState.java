@@ -14,7 +14,7 @@ public class ScenarioState {
         return userInput;
     }
 
-    public void setUserInput(String userInput) {
+    public void setUserInput(final String userInput) {
         this.userInput = userInput;
     }
 
@@ -22,7 +22,7 @@ public class ScenarioState {
         return result;
     }
 
-    public void setResult(int result) {
+    public void setResult(final int result) {
         this.result = result;
     }
 

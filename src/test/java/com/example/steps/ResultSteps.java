@@ -12,7 +12,7 @@ public class ResultSteps {
 
     private final ScenarioState state;
 
-    public ResultSteps(ScenarioState state) {
+    public ResultSteps(final ScenarioState state) {
         this.state = state;
     }
 

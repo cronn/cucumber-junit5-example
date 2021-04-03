@@ -10,7 +10,7 @@ public class SetupSteps {
 
     private final ScenarioState state;
 
-    public SetupSteps(ScenarioState state) {
+    public SetupSteps(final ScenarioState state) {
         this.state = state;
     }
 

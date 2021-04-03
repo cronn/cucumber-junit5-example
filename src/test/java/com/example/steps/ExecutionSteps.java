@@ -11,7 +11,7 @@ public class ExecutionSteps {
 
     private final ScenarioState state;
 
-    public ExecutionSteps(ScenarioState state) {
+    public ExecutionSteps(final ScenarioState state) {
         this.state = state;
     }
 

@@ -12,7 +12,7 @@ public class ErrorSteps {
 
     private final ScenarioState state;
 
-    public ErrorSteps(ScenarioState state) {
+    public ErrorSteps(final ScenarioState state) {
         this.state = state;
     }
 
