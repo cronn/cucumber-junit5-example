@@ -7,14 +7,14 @@ plugins {
 //           and later on lock the currently used versions in a lockfile. If you want to use a specific version
 //           of a dependency, feel free to adjust the version here.
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:latest.release") {
-        because("we want to use JUnit 5 assertions - replace this if you want to use another assertions library")
-    }
     testImplementation("io.cucumber:cucumber-java:latest.release") {
         because("we want to use Cucumber JVM")
     }
     testImplementation("io.cucumber:cucumber-junit-platform-engine:latest.release") {
         because("we want to use Cucumber with JUnit 5")
+    }
+    testImplementation("org.junit.jupiter:junit-jupiter-api:latest.release") {
+        because("we want to use JUnit 5 assertions - replace this if you want to use another assertions library")
     }
     testImplementation("io.cucumber:cucumber-picocontainer:latest.release") {
         because("we want to use dependency injection in our Cucumber tests - remove this if you don't")
