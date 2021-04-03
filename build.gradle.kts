@@ -42,6 +42,8 @@ tasks {
         systemProperty("cucumber.plugin", "json:build/reports/cucumber.json, timeline:build/reports/timeline")
         // OPTIONAL: don't show cucumber ads
         systemProperty("cucumber.publish.quiet", "true")
+        // OPTIONAL: force test execution even if they are up-to-date according to Gradle
+        outputs.upToDateWhen { false }
     }
 }
 
