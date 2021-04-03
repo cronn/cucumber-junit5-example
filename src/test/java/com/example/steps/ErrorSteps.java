@@ -4,6 +4,10 @@ import com.example.state.ScenarioState;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 
+/**
+ * Terminal steps that verify error conditions. The currently active scenario state is injected into an instance of
+ * this class per scenario, thus you can share state across classes/steps.
+ */
 public class ErrorSteps {
 
     private final ScenarioState state;

@@ -3,6 +3,10 @@ package com.example.steps;
 import com.example.state.ScenarioState;
 import io.cucumber.java.en.When;
 
+/**
+ * State modifying steps. They act on the currently active scenario state which is inject into an instance of this class
+ * per scenario.
+ */
 public class ExecutionSteps {
 
     private final ScenarioState state;

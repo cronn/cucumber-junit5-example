@@ -3,6 +3,9 @@ package com.example.steps;
 import com.example.state.ScenarioState;
 import io.cucumber.java.en.Given;
 
+/**
+ * Setup steps that initialize the currently active scenario state to a certain value.
+ */
 public class SetupSteps {
 
     private final ScenarioState state;
