@@ -35,7 +35,7 @@ tasks {
     test {
         ignoreFailures = true
         systemProperties(project.gradle.startParameter.systemPropertiesArgs)
-        systemProperty("cucumber.execution.parallel.enabled", System.getProperty("test.parallel", "false"))
+        systemProperty("cucumber.execution.parallel.enabled", true)
         systemProperty("cucumber.plugin", "json:build/reports/cucumber.json")
         systemProperty("cucumber.publish.quiet", "true")
         useJUnitPlatform {
