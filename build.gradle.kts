@@ -39,7 +39,7 @@ tasks {
         // OPTIONAL: set the fixed number of parallel test executions. Only works for the "fixed" strategy defined above
         systemProperty("cucumber.execution.parallel.config.fixed.parallelism", 4)
         // OPTIONAL: Enable Cucumber plugins, enable/disable as desired
-        systemProperty("cucumber.plugin", "json:build/reports/cucumber.json, timeline:build/reports/timeline")
+        systemProperty("cucumber.plugin", "message:build/reports/cucumber.ndjson, timeline:build/reports/timeline, html:build/reports/cucumber.html")
         // OPTIONAL: don't show cucumber ads
         systemProperty("cucumber.publish.quiet", "true")
         // OPTIONAL: force test execution even if they are up-to-date according to Gradle
