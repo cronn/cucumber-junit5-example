@@ -11,3 +11,9 @@ Feature: Awesome Feature
     * something exists
     * something is executed
     * some result will be calculated
+
+  @awesome @failure
+  Scenario: Failures should be made visible in a human readable report
+    * something exists
+    * something is executed
+    * no result can be calculated
