@@ -1,4 +1,3 @@
 shell
---volume $HOME/.gradle:/home/gradle/.gradle:Z
 gradle:jdk15
 /bin/bash
