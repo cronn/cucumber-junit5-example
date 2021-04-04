@@ -1,9 +1,9 @@
 plugins {
-    // REQUIRED: we are writing tests in Java, change this only if you want to use another language
+    // REQUIRED: We are writing tests in Java, change this only if you want to use another language
     java
 }
 
-// REQUIRED: declare the dependencies that you want to use in your tests. We are using dynamic version ranges here
+// REQUIRED: Declare the dependencies that you want to use in your tests. We are using dynamic version ranges here
 //           and later on lock the currently used versions in a lockfile. If you want to use a specific version
 //           of a dependency, feel free to adjust the version here.
 dependencies {
@@ -23,45 +23,45 @@ dependencies {
 
 tasks {
     test {
-        // REQUIRED: tell Gradle to use the JUnit 5 platform to execute tests
+        // REQUIRED: Tell Gradle to use the JUnit 5 platform to execute tests
         useJUnitPlatform {
-            // OPTIONAL: exclude all tests (scenarios) annotated with @disabled by default
+            // OPTIONAL: Exclude all tests (scenarios) annotated with @disabled by default
             excludeTags("disabled")
         }
-        // OPTIONAL: ignore test failures so that build pipelines won't get blocked by failing scenarios
+        // OPTIONAL: Ignore test failures so that build pipelines won't get blocked by failing scenarios
         ignoreFailures = true
-        // OPTIONAL: copy all system properties from the command line (-D...) to the test environment
+        // OPTIONAL: Copy all system properties from the command line (-D...) to the test environment
         systemProperties(project.gradle.startParameter.systemPropertiesArgs)
-        // OPTIONAL: enable parallel test execution
+        // OPTIONAL: Enable parallel test execution
         systemProperty("cucumber.execution.parallel.enabled", true)
-        // OPTIONAL: set parallel execution strategy (defaults to dynamic)
+        // OPTIONAL: Set parallel execution strategy (defaults to dynamic)
         systemProperty("cucumber.execution.parallel.config.strategy", "fixed")
-        // OPTIONAL: set the fixed number of parallel test executions. Only works for the "fixed" strategy defined above
+        // OPTIONAL: Set the fixed number of parallel test executions. Only works for the "fixed" strategy defined above
         systemProperty("cucumber.execution.parallel.config.fixed.parallelism", 4)
         // OPTIONAL: Enable Cucumber plugins, enable/disable as desired
         systemProperty("cucumber.plugin", "message:build/reports/cucumber.ndjson, timeline:build/reports/timeline, html:build/reports/cucumber.html")
-        // OPTIONAL: don't show cucumber ads
+        // OPTIONAL: Don't show Cucumber ads
         systemProperty("cucumber.publish.quiet", "true")
-        // OPTIONAL: force test execution even if they are up-to-date according to Gradle
+        // OPTIONAL: Force test execution even if they are up-to-date according to Gradle
         outputs.upToDateWhen { false }
     }
 }
 
 java {
-    // OPTIONAL: use Java 16 toolchain, adjust according to your needs or remove entirely
+    // OPTIONAL: Use Java 16 toolchain, adjust according to your needs or remove entirely
     // see https://docs.gradle.org/current/userguide/toolchains.html
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(16))
         vendor.set(JvmVendorSpec.ADOPTOPENJDK)
     }
-    // OPTIONAL: force compile classpath versions for all dependencies, remove if undesired
+    // OPTIONAL: Force compile classpath versions for all dependencies, remove if undesired
     // see https://docs.gradle.org/current/userguide/resolution_strategy_tuning.html#resolution_consistency
     consistentResolution {
         useCompileClasspathVersions()
     }
 }
 
-// OPTIONAL: lock all dependencies since we are using dynamic version ranges
+// OPTIONAL: Lock all dependencies since we are using dynamic version ranges
 // see https://docs.gradle.org/current/userguide/dependency_locking.html
 dependencyLocking {
     lockAllConfigurations()
