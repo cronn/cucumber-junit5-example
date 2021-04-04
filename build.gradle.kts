@@ -24,6 +24,7 @@ dependencies {
 tasks {
     test {
         // REQUIRED: Tell Gradle to use the JUnit 5 platform to execute tests
+        // see https://docs.gradle.org/current/userguide/java_testing.html#using_junit5
         useJUnitPlatform {
             // OPTIONAL: Exclude all tests (scenarios) annotated with @disabled by default
             excludeTags("disabled")
