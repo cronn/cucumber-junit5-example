@@ -26,10 +26,10 @@ tasks {
         // REQUIRED: Tell Gradle to use the JUnit 5 platform to execute tests
         // see https://docs.gradle.org/current/userguide/java_testing.html#using_junit5
         useJUnitPlatform {
-            // OPTIONAL: Exclude all tests (scenarios) annotated with @disabled by default
+            // OPTIONAL: Exclude all tests (examples/scenarios) annotated with @disabled by default
             excludeTags("disabled")
         }
-        // OPTIONAL: Ignore test failures so that build pipelines won't get blocked by failing scenarios
+        // OPTIONAL: Ignore test failures so that build pipelines won't get blocked by failing examples/scenarios
         ignoreFailures = true
         // OPTIONAL: Copy all system properties from the command line (-D...) to the test environment
         systemProperties(project.gradle.startParameter.systemPropertiesArgs)
@@ -70,8 +70,8 @@ dependencyLocking {
 
 // OPTIONAL: In order to show that none of the commonly used suspects for test execution are used, JUnit 4 and JUnit 5
 //           engines are excludes for all configurations. In case you are planning on running regular JUnit 4/5 tests
-//           along your Cucumber scenarios, either remove this entire block or just remove the engine that you want
-//           to use to run your tests.
+//           along your Cucumber features/rules/examples/scenarios, either remove this entire block or just remove the
+//           engine that you want to use to run your tests.
 configurations {
     all {
         // OPTIONAL: Exclude JUnit 4
