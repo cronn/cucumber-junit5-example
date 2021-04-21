@@ -1,4 +1,4 @@
-name: Update Parent
+name: Update Dependencies
 on:
   schedule:
     - cron:  "0 5 1 * *"
