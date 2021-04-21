@@ -1,20 +1,20 @@
 # This is a Gradle generated file for dependency locking.
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
-io.cucumber:create-meta:3.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:6.10.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:create-meta:4.0.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:6.10.3=testCompileClasspath,testRuntimeClasspath
 io.cucumber:cucumber-expressions:10.3.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:6.10.2=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:6.10.2=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:6.10.2=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:6.10.2=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:6.10.2=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:6.10.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:6.10.3=testCompileClasspath,testRuntimeClasspath
 io.cucumber:datatable:3.5.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:6.10.2=testCompileClasspath,testRuntimeClasspath
-io.cucumber:html-formatter:12.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:messages:14.0.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:tag-expressions:3.0.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:html-formatter:13.0.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:messages:15.0.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:tag-expressions:3.0.1=testCompileClasspath,testRuntimeClasspath
 org.apiguardian:apiguardian-api:1.1.1=testCompileClasspath,testRuntimeClasspath
 org.junit.jupiter:junit-jupiter-api:5.8.0-M1=testCompileClasspath,testRuntimeClasspath
 org.junit.platform:junit-platform-commons:1.8.0-M1=testCompileClasspath,testRuntimeClasspath
