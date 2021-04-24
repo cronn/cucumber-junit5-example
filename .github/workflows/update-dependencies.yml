@@ -1,7 +1,7 @@
 name: Update Dependencies
 on:
   schedule:
-    - cron:  "0 5 1 * *"
+    - cron:  "0 0 * * 1"
 env:
   JAVA_VERSION: 16
   JAVA_PACKAGE: jdk
