@@ -1,6 +1,6 @@
 # Cucumber with JUnit5
 
-This repository contains an example project that integrates [Cucumber](https://cucumber.io/) with [JUnit5](https://junit.org/junit5/). It is the same setup explained in the [blog post](https://www.blog.cronn.de/en/testing/2020/08/17/cucumber-junit5.html).
+This repository contains an example project that integrates [Cucumber](https://cucumber.io/) with [JUnit5](https://junit.org/junit5/). It is the same setup explained in the [blog post](https://www.blog.cronn.de/en/testing/2020/08/17/cucumber-junit5.html). In case you want to combine your examples/scenarios with [Selenium](https://www.selenium.dev/) check out [cucumber-junit5-selenium-example](https://github.com/cronn/cucumber-junit5-selenium-example).
 
 ## Quick Start
 
