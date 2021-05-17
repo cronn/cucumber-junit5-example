@@ -2,16 +2,16 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 io.cucumber:create-meta:4.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:6.10.4=testCompileClasspath,testRuntimeClasspath
 io.cucumber:cucumber-expressions:10.3.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:6.10.3=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:6.10.3=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:6.10.3=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:6.10.3=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:6.10.3=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:6.10.4=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:6.10.4=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:6.10.4=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:6.10.4=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:6.10.4=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:6.10.4=testCompileClasspath,testRuntimeClasspath
 io.cucumber:datatable:3.5.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:6.10.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:6.10.4=testCompileClasspath,testRuntimeClasspath
 io.cucumber:html-formatter:13.0.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:messages:15.0.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:tag-expressions:3.0.1=testCompileClasspath,testRuntimeClasspath
