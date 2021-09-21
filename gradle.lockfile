@@ -1,25 +1,25 @@
 # This is a Gradle generated file for dependency locking.
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
-io.cucumber:create-meta:4.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-expressions:10.3.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:datatable:3.5.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:6.11.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:html-formatter:13.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:messages:15.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:tag-expressions:3.0.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:create-meta:6.0.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-expressions:12.1.3=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:datatable:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:7.0.0-RC1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:html-formatter:17.0.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:messages:17.1.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:tag-expressions:4.0.0=testCompileClasspath,testRuntimeClasspath
 org.apiguardian:apiguardian-api:1.1.2=testCompileClasspath,testRuntimeClasspath
-org.junit.jupiter:junit-jupiter-api:5.8.0-RC1=testCompileClasspath,testRuntimeClasspath
-org.junit.platform:junit-platform-commons:1.8.0-RC1=testCompileClasspath,testRuntimeClasspath
-org.junit.platform:junit-platform-engine:1.8.0-RC1=testCompileClasspath,testRuntimeClasspath
-org.junit:junit-bom:5.8.0-RC1=testCompileClasspath,testRuntimeClasspath
+org.junit.jupiter:junit-jupiter-api:5.8.0=testCompileClasspath,testRuntimeClasspath
+org.junit.platform:junit-platform-commons:1.8.0=testCompileClasspath,testRuntimeClasspath
+org.junit.platform:junit-platform-engine:1.8.0=testCompileClasspath,testRuntimeClasspath
+org.junit:junit-bom:5.8.0=testCompileClasspath,testRuntimeClasspath
 org.opentest4j:opentest4j:1.2.0=testCompileClasspath,testRuntimeClasspath
 org.picocontainer:picocontainer:2.15=testCompileClasspath,testRuntimeClasspath
 empty=annotationProcessor,compileClasspath,runtimeClasspath,testAnnotationProcessor
