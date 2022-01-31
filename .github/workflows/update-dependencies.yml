@@ -39,7 +39,7 @@ jobs:
           rm -f ~/.gradle/caches/modules-2/modules-2.lock
           rm -f ~/.gradle/caches/modules-2/gc.properties
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3.12.0
+        uses: peter-evans/create-pull-request@v3.12.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: update dependencies to latest version
