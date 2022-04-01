@@ -41,6 +41,8 @@ tasks {
         systemProperty("cucumber.execution.parallel.config.fixed.parallelism", 4)
         // OPTIONAL: Enable Cucumber plugins, enable/disable as desired
         systemProperty("cucumber.plugin", "message:build/reports/cucumber.ndjson, timeline:build/reports/timeline, html:build/reports/cucumber.html")
+        // OPTIONAL: Improve readability of test names in reports
+        systemProperty("cucumber.junit-platform.naming-strategy", "long")
         // OPTIONAL: Don't show Cucumber ads
         systemProperty("cucumber.publish.quiet", "true")
         // OPTIONAL: Force test execution even if they are up-to-date according to Gradle
