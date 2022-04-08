@@ -9,8 +9,7 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL"
-
+name: CodeQL
 on:
   push:
     branches: [ main ]
@@ -20,7 +19,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ main ]
   schedule:
-    - cron: '22 14 * * 1'
+    - cron: 22 14 * * 1
 env:
   JAVA_VERSION: 17
   JAVA_PACKAGE: jdk
@@ -42,7 +41,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-    - name: Set up JDK 17
+    - name: Set up Java
       uses: actions/setup-java@v2
       with:
         java-version: ${{ env.JAVA_VERSION }}
