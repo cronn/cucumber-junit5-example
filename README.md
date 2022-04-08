@@ -10,7 +10,7 @@ $ cd your-own-tests
 $ ./gradlew test
 ```
 
-Gradle will execute all feature files which are located in the `src/test/resources/features` folder as specified in [RunAlCucumberTests](https://github.com/cronn/cucumber-junit5-example/blob/main/src/test/java/com/example/RunAlCucumberTests.java). In order to filter execution to just a subset of all features, use the `includeTags` property as in the following example. It uses [JUnit5 tag expression](https://junit.org/junit5/docs/current/user-guide/#running-tests-tag-expressions):
+Gradle will execute all feature files which are located in the `src/test/resources/features` folder as specified in [RunAllCucumberTests](https://github.com/cronn/cucumber-junit5-example/blob/main/src/test/java/com/example/RunAllCucumberTests.java). In order to filter execution to just a subset of all features, use the `includeTags` property as in the following example. It uses [JUnit5 tag expression](https://junit.org/junit5/docs/current/user-guide/#running-tests-tag-expressions):
 
 ```shell script
 $ ./gradlew test --project-prop includeTags="first | awesome"
