@@ -13,6 +13,9 @@ dependencies {
     testImplementation("io.cucumber:cucumber-junit-platform-engine:latest.release") {
         because("we want to use Cucumber with JUnit 5")
     }
+    testImplementation("org.junit.platform:junit-platform-suite:latest.release") {
+        because("we want to use the JUnit 5 @Suite annotation to select/run Cucumber tests")
+    }
     testImplementation("org.junit.jupiter:junit-jupiter-api:latest.release") {
         because("we want to use JUnit 5 assertions - replace this if you want to use another assertions library")
     }
@@ -28,6 +31,8 @@ tasks {
         useJUnitPlatform {
             // OPTIONAL: Exclude all tests (examples/scenarios) annotated with @disabled by default
             excludeTags("disabled")
+            // OPTIONAL: Include only specified tags using JUnit5 tag expressions
+            if (project.hasProperty("includeTags")) includeTags(project.property("includeTags") as String?)
         }
         // OPTIONAL: Ignore test failures so that build pipelines won't get blocked by failing examples/scenarios
         ignoreFailures = true
@@ -51,10 +56,10 @@ tasks {
 }
 
 java {
-    // OPTIONAL: Use Java 16 toolchain, adjust according to your needs or remove entirely
+    // OPTIONAL: Use Java 17 toolchain, adjust according to your needs or remove entirely
     // see https://docs.gradle.org/current/userguide/toolchains.html
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(16))
+        languageVersion.set(JavaLanguageVersion.of(17))
         vendor.set(JvmVendorSpec.ADOPTOPENJDK)
     }
     // OPTIONAL: Force compile classpath versions for all dependencies, remove if undesired
