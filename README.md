@@ -10,16 +10,16 @@ $ cd your-own-tests
 $ ./gradlew test
 ```
 
-Gradle will execute all feature files which are located in the same package as [BuildToolSupport](https://github.com/cronn/cucumber-junit5-example/blob/main/src/test/java/com/example/BuildToolSupport.java) or any subpackage of that. In order to filter execution to just a subset of all features, use the `cucumber.filter.tags` option like this:
+Gradle will execute all feature files which are located in the `src/test/resources/features` folder as specified in [RunCucumberTests](https://github.com/cronn/cucumber-junit5-example/blob/main/src/test/java/com/example/RunCucumberTests.java). In order to filter execution to just a subset of all features, use the `includeTags` property as in the following example. It uses [JUnit5 tag expression](https://junit.org/junit5/docs/current/user-guide/#running-tests-tag-expressions):
 
 ```shell script
-$ ./gradlew test -Dcucumber.filter.tags="@first or @awesome"
+$ ./gradlew test --project-prop includeTags="first | awesome"
 ```
 
-In order to ignore just a subset of features, use the `cucumber.filter.tags` option like this:
+In order to ignore just a subset of features, use the `includeTags` property like this:
 
 ```shell script
-$ ./gradlew test -Dcucumber.filter.tags="not @second"
+$ ./gradlew test --project-prop includeTags="!second"
 ```
 
 [build.gradle.kts](https://github.com/cronn/cucumber-junit5-example/blob/main/build.gradle.kts#L36-L43) uses `cucumber.execution.parallel.enabled` to enable parallel test execution by default. Additionally, it uses the `cucumber.plugin` option to write a reports file to `build/reports/cucumber.ndjson`, an execution timeline to `build/reports/timeline` and an HTML report to `build/reports/cucumber.html`. All Cucumber features/rules/examples/scenarios annotated with `@disabled` are filtered by default and are not executed. This project declares an extra dependency to [picocontainer](http://picocontainer.com/) in order to show dependency injection within tests - remove it in case you don't need it.
