@@ -41,22 +41,22 @@ jobs:
         rm -f ~/.gradle/caches/modules-2/modules-2.lock
         rm -f ~/.gradle/caches/modules-2/gc.properties
     - name: Upload Cucumber NDJSON
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: cucumber-ndjson
         path: ./build/reports/cucumber.ndjson
     - name: Upload Cucumber HTML
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: cucumber-html
         path: ./build/reports/cucumber.html
     - name: Upload Timeline Report
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: cucumber-timeline
         path: ./build/reports/timeline/*
     - name: Upload Gradle Test Report
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: gradle-test-report
         path: ./build/reports/tests/test/*
