@@ -32,23 +32,20 @@ jobs:
         run: chmod +x gradlew
       - name: Update gradle.lockfile
         run: ./gradlew dependencies --write-locks
+      - name: Verify everything still works
+        run: ./gradlew build
       - name: Cleanup Gradle Cache
         # Remove some files from the Gradle cache, so they aren't cached by GitHub Actions.
         # Restoring these files from a GitHub Actions cache might cause problems for future builds.
         run: |
           rm -f ~/.gradle/caches/modules-2/modules-2.lock
           rm -f ~/.gradle/caches/modules-2/gc.properties
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+      - name: Commit Changes
+        uses: EndBug/add-and-commit@v9
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: update dependencies to latest version
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          title: update dependencies to latest version
-          body: |
-            Dependencies updated with: `./gradlew dependencies --write-locks`
-          labels: dependencies
-          assignees: sebhoss
-          draft: false
-          branch: update-dependencies
+          author_name: ${{ github.actor }}
+          author_email: ${{ github.actor }}@users.noreply.github.com
+          message: Dependencies updated with './gradlew dependencies --write-locks'
+          add: gradle.lockfile
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
