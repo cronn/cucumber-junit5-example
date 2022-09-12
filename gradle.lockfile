@@ -2,19 +2,19 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 io.cucumber:ci-environment:9.1.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:7.6.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:7.7.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:cucumber-expressions:16.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:7.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:7.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:7.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:7.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:7.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:7.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:datatable:7.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:7.6.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:7.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:7.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:7.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:7.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:7.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:7.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:datatable:7.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:7.7.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:gherkin:24.0.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:html-formatter:20.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:messages:19.0.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:messages:19.1.2=testCompileClasspath,testRuntimeClasspath
 io.cucumber:tag-expressions:4.1.0=testCompileClasspath,testRuntimeClasspath
 org.apiguardian:apiguardian-api:1.1.2=testCompileClasspath,testRuntimeClasspath
 org.junit.jupiter:junit-jupiter-api:5.9.0=testCompileClasspath,testRuntimeClasspath
