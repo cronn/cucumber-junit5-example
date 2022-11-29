@@ -50,7 +50,7 @@ tasks {
         systemProperty("cucumber.junit-platform.naming-strategy", "long")
         // OPTIONAL: Don't show Cucumber ads
         systemProperty("cucumber.publish.quiet", "true")
-        // OPTIONAL: Force test execution even if they are up-to-date according to Gradle
+        // OPTIONAL: Force test execution even if they are up-to-date according to Gradle or use "gradle test --rerun"
         outputs.upToDateWhen { false }
     }
 }
@@ -60,7 +60,7 @@ java {
     // see https://docs.gradle.org/current/userguide/toolchains.html
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(17))
-        vendor.set(JvmVendorSpec.ADOPTOPENJDK)
+        vendor.set(JvmVendorSpec.ADOPTIUM)
     }
     // OPTIONAL: Force compile classpath versions for all dependencies, remove if undesired
     // see https://docs.gradle.org/current/userguide/resolution_strategy_tuning.html#resolution_consistency
