@@ -2,18 +2,18 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 io.cucumber:ci-environment:9.1.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-expressions:16.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:datatable:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:7.9.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:gherkin:24.1.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:html-formatter:20.1.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-expressions:16.1.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:datatable:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:7.10.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:gherkin:25.0.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:html-formatter:20.2.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:messages:19.1.4=testCompileClasspath,testRuntimeClasspath
 io.cucumber:tag-expressions:4.1.0=testCompileClasspath,testRuntimeClasspath
 org.apiguardian:apiguardian-api:1.1.2=testCompileClasspath,testRuntimeClasspath
