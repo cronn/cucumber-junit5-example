@@ -1,7 +1,7 @@
 package com.example.state;
 
 /**
- * An instance of this class will be injected in each examples/scenario, thus allowing all examples/scenarios to be run
+ * An instance of this class will be injected in each example/scenario, thus allowing all examples/scenarios to be run
  * in parallel. The state we are capturing in each scenario is only an example to show how one step can change the state
  * and another steps can read the updated state.
  */

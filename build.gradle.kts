@@ -16,9 +16,6 @@ dependencies {
     testImplementation("org.junit.platform:junit-platform-suite:latest.release") {
         because("we want to use the JUnit 5 @Suite annotation to select/run Cucumber tests")
     }
-    testImplementation("org.junit.jupiter:junit-jupiter-api:latest.release") {
-        because("we want to use JUnit 5 assertions - replace this if you want to use another assertions library")
-    }
     testImplementation("io.cucumber:cucumber-picocontainer:latest.release") {
         because("we want to use dependency injection in our Cucumber tests - remove this if you don't")
     }

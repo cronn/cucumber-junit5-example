@@ -1,6 +1,6 @@
 # Cucumber with JUnit5
 
-This repository contains an example project that integrates [Cucumber](https://cucumber.io/) with [JUnit5](https://junit.org/junit5/). It is the same setup explained in the [blog post](https://www.blog.cronn.de/en/testing/2020/08/17/cucumber-junit5.html). In case you want to combine your examples/scenarios with [Selenium](https://www.selenium.dev/) check out [cucumber-junit5-selenium-example](https://github.com/cronn/cucumber-junit5-selenium-example).
+This repository contains an example project that integrates [Cucumber](https://cucumber.io/) with [JUnit5](https://junit.org/junit5/). It is the same setup explained in the [blog post](https://www.blog.cronn.de/en/testing/2020/08/17/cucumber-junit5.html).
 
 ## Quick Start
 
@@ -22,8 +22,6 @@ In order to ignore just a subset of features, use the `includeTags` property lik
 $ ./gradlew test --project-prop includeTags="!second"
 ```
 
-[build.gradle.kts](https://github.com/cronn/cucumber-junit5-example/blob/main/build.gradle.kts#L36-L43) uses `cucumber.execution.parallel.enabled` to enable parallel test execution by default. Additionally, it uses the `cucumber.plugin` option to write a reports file to `build/reports/cucumber.ndjson`, an execution timeline to `build/reports/timeline` and an HTML report to `build/reports/cucumber.html`. All Cucumber features/rules/examples/scenarios annotated with `@disabled` are filtered by default and are not executed. This project declares an extra dependency to [picocontainer](http://picocontainer.com/) in order to show dependency injection within tests - remove it in case you don't need it.
-
-Note that while this project uses the JUnit5 platform, it only requires the jupiter-api in order use JUnit 5 assertions. Replace this dependency in case you want to use another assertion library like [AssertJ](https://assertj.github.io/doc/). If you are planning on running regular JUnit 5 tests along with your Cucumber examples/scenarios, add a dependency to jupiter-engine. The Gradle configuration is annotated to help you make changes for your own test setup, thus feel free to modify it!
+[build.gradle.kts](https://github.com/cronn/cucumber-junit5-example/blob/main/build.gradle.kts#L36-L43) uses `cucumber.execution.parallel.enabled` to enable parallel test execution by default. Additionally, it uses the `cucumber.plugin` option to write a reports file to `build/reports/cucumber.ndjson`, an execution timeline to `build/reports/timeline` and an HTML report to `build/reports/cucumber.html`. All Cucumber features/rules/examples/scenarios annotated with `@disabled` are filtered by default and are not executed. This project declares an extra dependency to [picocontainer](http://picocontainer.com/) in order to show dependency injection within tests - remove it in case you don't need it. The Gradle configuration is annotated to help you make changes for your own test setup, thus feel free to modify it!
 
 [<img src="https://www.cronn.de/img/logo_name_rgb_1200x630.png" alt="cronn GmbH" width="200"/>](https://www.cronn.de/)
