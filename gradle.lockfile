@@ -2,23 +2,23 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 io.cucumber:ci-environment:10.0.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:7.18.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:7.18.1=testCompileClasspath,testRuntimeClasspath
 io.cucumber:cucumber-expressions:17.1.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:7.18.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:7.18.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:7.18.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:7.18.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:7.18.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:7.18.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:datatable:7.18.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:7.18.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:7.18.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:7.18.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:7.18.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:7.18.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:7.18.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:7.18.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:datatable:7.18.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:7.18.1=testCompileClasspath,testRuntimeClasspath
 io.cucumber:gherkin:28.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:html-formatter:21.3.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:junit-xml-formatter:0.4.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:html-formatter:21.4.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:junit-xml-formatter:0.5.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:messages:24.1.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:query:12.2.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:tag-expressions:6.1.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:testng-xml-formatter:0.1.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:testng-xml-formatter:0.2.0=testCompileClasspath,testRuntimeClasspath
 org.apiguardian:apiguardian-api:1.1.2=testCompileClasspath,testRuntimeClasspath
 org.junit.jupiter:junit-jupiter-api:5.11.0-M2=testCompileClasspath,testRuntimeClasspath
 org.junit.platform:junit-platform-commons:1.11.0-M2=testCompileClasspath,testRuntimeClasspath
