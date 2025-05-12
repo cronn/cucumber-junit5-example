@@ -2,16 +2,16 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 io.cucumber:ci-environment:10.0.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:7.22.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:7.22.2=testCompileClasspath,testRuntimeClasspath
 io.cucumber:cucumber-expressions:18.0.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:7.22.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:7.22.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:7.22.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:7.22.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:7.22.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:7.22.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:datatable:7.22.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:7.22.1=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:7.22.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:7.22.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:7.22.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:7.22.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:7.22.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:7.22.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:datatable:7.22.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:7.22.2=testCompileClasspath,testRuntimeClasspath
 io.cucumber:gherkin:32.1.1=testCompileClasspath,testRuntimeClasspath
 io.cucumber:html-formatter:21.10.1=testCompileClasspath,testRuntimeClasspath
 io.cucumber:junit-xml-formatter:0.7.1=testCompileClasspath,testRuntimeClasspath
