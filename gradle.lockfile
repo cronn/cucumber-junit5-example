@@ -2,24 +2,24 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 io.cucumber:ci-environment:12.0.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-core:7.32.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-core:7.33.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:cucumber-expressions:18.0.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin-messages:7.32.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-gherkin:7.32.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-java:7.32.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-json-formatter:0.3.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-junit-platform-engine:7.32.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-picocontainer:7.32.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:cucumber-plugin:7.32.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:datatable:7.32.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:docstring:7.32.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin-messages:7.33.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-gherkin:7.33.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-java:7.33.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-json-formatter:0.3.2=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-junit-platform-engine:7.33.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-picocontainer:7.33.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:cucumber-plugin:7.33.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:datatable:7.33.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:docstring:7.33.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:gherkin:36.1.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:html-formatter:22.1.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:html-formatter:22.2.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:junit-xml-formatter:0.11.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:messages:30.1.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:pretty-formatter:2.4.1=testCompileClasspath,testRuntimeClasspath
-io.cucumber:query:14.6.0=testCompileClasspath,testRuntimeClasspath
-io.cucumber:tag-expressions:8.0.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:query:14.7.0=testCompileClasspath,testRuntimeClasspath
+io.cucumber:tag-expressions:8.1.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:teamcity-formatter:0.2.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:testng-xml-formatter:0.7.0=testCompileClasspath,testRuntimeClasspath
 io.cucumber:usage-formatter:0.1.0=testCompileClasspath,testRuntimeClasspath
